@@ -37,7 +37,7 @@ function Project({ params }: { params: { slug: string } }) {
           <Title>My Role</Title>
           <Body>
             {project?.roles.map((r) => (
-              <span className="mt-3 block">{`${r}\n`}</span>
+              <span key={r} className="mt-3 block">{`${r}\n`}</span>
             ))}
           </Body>
         </div>{" "}
@@ -45,7 +45,7 @@ function Project({ params }: { params: { slug: string } }) {
           <Title>Team</Title>
           <Body>
             {project?.team.map((r) => (
-              <span className="mt-3 block">{`${r}\n`}</span>
+              <span key={r} className="mt-3 block">{`${r}\n`}</span>
             ))}
           </Body>
         </div>
@@ -60,7 +60,7 @@ function Project({ params }: { params: { slug: string } }) {
         {project?.sections.map((s: any) => {
           if (s.type === "context") {
             return (
-              <>
+              <React.Fragment key={s.slug}>
                 <Image className="mt-16 w-full" src={s.image!} alt="" />
                 <div className="px-6 container mx-auto">
                   <div className="mt-16 pb-16 border-b-[0.5px] border-[#343434]">
@@ -74,12 +74,15 @@ function Project({ params }: { params: { slug: string } }) {
                     </div>
                   </div>
                 </div>
-              </>
+              </React.Fragment>
             );
           }
           if (s.type === "problem") {
             return (
-              <div className="my-16 px-6 md:flex gap-16 container mx-auto">
+              <div
+                key={s.slug}
+                className="my-16 px-6 md:flex gap-16 container mx-auto"
+              >
                 <Image className="mb-16 md:w-80" src={mark} alt="" />
                 <div>
                   <Title>{s.title}</Title>
@@ -95,6 +98,7 @@ function Project({ params }: { params: { slug: string } }) {
           if (s.type === "definition") {
             return (
               <div
+                key={s.slug}
                 className={`py-16   px-6 text-white `}
                 style={{ backgroundColor: project.color }}
               >
@@ -109,13 +113,16 @@ function Project({ params }: { params: { slug: string } }) {
                 <div className="mt-16 border border-white container mx-auto">
                   <ul className="p-7 pb-0  md:flex">
                     {s.steps?.map((step: any) => (
-                      <li className="mb-6">
+                      <li key={step.title} className="mb-6">
                         <div className="flex items-center gap-2 text-xl font-semibold">
                           <div className="w-5 aspect-square rounded-full bg-white"></div>
                           <span>{step.title}</span>
                         </div>
                         {step.substeps.map((sub: any) => (
-                          <div className="flex items-center gap-2 font-normal text-lg">
+                          <div
+                            key={sub}
+                            className="flex items-center gap-2 font-normal text-lg"
+                          >
                             <div className="w-5 aspect-square rounded-full bg-transaparent"></div>
                             <span className="mt-3 block">{`${sub}\n`}</span>
                           </div>
@@ -130,6 +137,7 @@ function Project({ params }: { params: { slug: string } }) {
           if (s.type === "success") {
             return (
               <div
+                key={s.slug}
                 className={`py-16 mt-16  px-6 text-white`}
                 style={{ backgroundColor: project.color }}
               >
@@ -148,7 +156,7 @@ function Project({ params }: { params: { slug: string } }) {
             const addedS =
               s.position !== "top" ? "flex flex-col" : "flex flex-col-reverse";
             return (
-              <>
+              <React.Fragment key={s.slug}>
                 <div
                   className={
                     s.inline
@@ -213,7 +221,7 @@ function Project({ params }: { params: { slug: string } }) {
                     <div className="w-full border-b border-black"></div>
                   </div>
                 ) : null}
-              </>
+              </React.Fragment>
             );
           }
         })}

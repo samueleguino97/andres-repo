@@ -212,7 +212,7 @@ export const projects = [
     color: "#1387F2",
     name: "Prodigy Tech",
     description: `
-    I had the pleasure of designing the new responsive website for Prodigy Tech, a software development services company. Working closely with the CEO, CTO, and development team, I created an immersive digital experience that showcased Prodigy Tech's expertise.  By crafting an intuitive user interface (UI) and optimizing it for various devices, I ensured a seamless and engaging journey for visitors. It was a collaborative effort, resulting in a visually stunning website that reflects Prodigy Tech's brand and values.`,
+    I had the pleasure of designing the new responsive website for Prodigy Tech, a software development services company. Working closely with the CEO, CTO, and development team, I created an immersive digital experience that showcased Prodigy Tech's expertise.By crafting an intuitive user interface (UI) and optimizing it for various devices, I ensured a seamless and engaging journey for visitors. It was a collaborative effort, resulting in a visually stunning website that reflects Prodigy Tech's brand and values.`,
     roles: [
       "UI/UX Design",
       "Product Management",
@@ -391,13 +391,12 @@ export const projects = [
     ],
   },
   {
-    slug: "atnight",
-    color: "#095055",
-    name: "At Night",
+    cover: Pcover,
+    slug: "prodigy",
+    color: "#1387F2",
+    name: "Prodigy Tech",
     description: `
-        I redesigned the Masterweb website to increase traffic, modernize the user experience, and create a stronger brand identity. I worked closely with the Masterweb team to understand their goals and conducted user research to improve the overall user experience.
-        
-        I focused on creating a personalized experience for users, optimized the navigation, and implemented a contemporary visual design that would appeal to users while also incorporating elements of the brand's existing style. Overall, the redesign was a success and has helped to establish a stronger brand identity for Masterweb.`,
+    I had the pleasure of designing the new responsive website for Prodigy Tech, a software development services company. Working closely with the CEO, CTO, and development team, I created an immersive digital experience that showcased Prodigy Tech's expertise.By crafting an intuitive user interface (UI) and optimizing it for various devices, I ensured a seamless and engaging journey for visitors. It was a collaborative effort, resulting in a visually stunning website that reflects Prodigy Tech's brand and values.`,
     roles: [
       "UI/UX Design",
       "Product Management",
@@ -406,26 +405,27 @@ export const projects = [
       "Design Systems",
       "Design QA",
     ],
-    team: ["Frontend Developer", "CTO", "CEO"],
+    team: ["Developer Team", "CTO", "CEO"],
     completed: "2023",
     sections: [
       {
         type: "context",
-        context: `MasterWeb Solutions is a technology services company that specializes in providing expert development services for businesses. They offer a range of services, including Design, WordPress, Security, and CMS/LSS, and believe that businesses need an experienced partner to take advantage of all that technology has to offer. Their team of talented and experienced engineers are highly trained in the latest technologies and industry methods, and they operate with transparency and trust as their core values. They build lasting partnerships with their clients and help them take the next step in their digital journey.`,
-        image: "",
+        context: `
+        Prodigy Tech is a dynamic company specializing in providing cutting-edge software development services. With a team of talented professionals, they deliver innovative solutions tailored to meet the unique needs of their clients. Prodigy Tech combines technical expertise with a passion for creating exceptional digital experiences. Their commitment to excellence and customer satisfaction has made them a trusted partner for businesses seeking reliable software solutions`,
+        image: Pcontext,
       },
       {
         type: "problem",
-        title: "The Problem",
+        title: "The Goal",
         description: `
-                The problem with the MasterWeb Solutions website was that it had an outdated look and feel, and the user experience was not optimized for modern browsing habits. This led to a high bounce rate, meaning users were leaving the site shortly after arriving. Additionally, the website's navigation was cluttered and not intuitive, making it difficult for users to find the information they needed. As a result, MasterWeb Solutions was not effectively communicating their expertise and value to potential clients, and the website was not driving the traffic and engagement it needed to succeed in today's digital landscape.`,
+        The goal of the project was to design a responsive website for Prodigy Tech that showcased their software development services and expertise. By creating an intuitive user interface (UI) and optimizing it for various devices, our aim was to provide visitors with a seamless and engaging digital experience. We wanted to highlight Prodigy Tech's brand identity, instill trust and credibility, and ensure the website reflected their commitment to excellence. Through close collaboration with the client and development team, our goal was to create a visually stunning website that effectively communicated Prodigy Tech's capabilities and established them as a leader in the industry.`,
       },
       {
         type: "definition",
-        title: "Defining the Process",
-        description: `To redesign the MasterWeb Solutions website, I worked closely with the CTO, CEO, and development team to define a streamlined process for the project. We broke the project down into four key phases, Within each phase, we had important steps to ensure we stayed on track and met key milestones and deliverable dates.
+        title: "The Process",
+        description: `We embarked on a collaborative journey, defining Prodigy Tech's brand and establishing a cohesive design system. Through concepting, we iterated on low-fi wireframes using Figma, incorporating feedback to ensure a user-centric approach.
 
-        Given the tight timeline to MVP, I used an agile, sprint-based process to iterate on and validate potential solutions early and often. The Concepting phase involved a series of week-long sprints to work through different features and ideas. This approach allowed us to quickly refine our designs and make necessary adjustments, ensuring we delivered a high-quality product that met the client's expectations.`,
+        The outcome? Captivating high-fidelity mockups and interactive prototypes, refined through continuous feedback and iterations. Our process resulted in a visually stunning website that showcases Prodigy Tech's expertise and delivers an intuitive digital experience.`,
         steps: [
           {
             title: "Discovery",
@@ -467,35 +467,120 @@ export const projects = [
       },
       {
         type: "image",
-        title: "Discovery and Analysis",
+        title: "Defining",
         content: `
-        During the discovery phase, I met with the MasterWeb team to understand their goals and objectives. We conducted workflow evaluations and used whiteboarding sessions to identify key areas for improvement. We also gathered data by analyzing website analytics and conducting user research.
-        
-        In the analysis phase, I synthesized the data we collected to gain a better understanding of the website's current state. We defined clear goals for the project and prioritized the scope of work. Finally, we mapped out the business flow to ensure the website would meet the needs of both the client and their users.`,
-        image: "",
+        We kicked off the design process by thoroughly understanding Prodigy Tech's brand identity and establishing a clear design system to follow. This involved in-depth discussions with the client to gather insights and align our vision with their goals and values.`,
+        image: Pdefining,
         position: "bottom",
         withDivision: false,
+      },
+      {
+        type: "image",
+        title: "Concepting",
+        content: `
+        Armed with a solid foundation, we dived into the concepting phase. Using Figma, we crafted low-fidelity wireframes that laid out the website's structure and functionality. Iterating on these wireframes, we sought feedback from stakeholders and incorporated their valuable input to ensure a user-centric approach.`,
+        image: Pconcept,
+        position: "bottom",
+        withDivision: true,
+      },
+      {
+        type: "image",
+        title: "Feedback",
+        content: `
+        With Figma's collaborative features, we seamlessly handled feedback throughout Prodigy Tech's website design. Clients provided real-time comments and annotations directly on the designs, enabling efficient communication and iterative improvements.
+        
+        This collaborative approach ensured a website that met the clients' vision and fostered a sense of ownership throughout the process.`,
+        image: PFB,
+        position: "top",
+        inline: true,
+        withDivision: false,
+      },
+      {
+        type: "image",
+        title: "Design Solution",
+        content: `
+        Building upon the refined wireframes, we transitioned into creating high-fidelity mockups and interactive prototypes. These visual representations brought the design to life, allowing us to visualize the final product.
+        
+        Through continuous feedback and iterations, we fine-tuned the details, ensuring the website embodied Prodigy Tech's brand while delivering an intuitive and visually captivating user experience.`,
+        image: PDS,
+        position: "top",
+        withDivision: true,
+      },
+
+      {
+        type: "image",
+        title: "Home Page",
+        content: `
+        Our goal was clear: design a home page that converts. By strategically placing call-to-action buttons, captivating visuals, and optimizing loading speed, we crafted a persuasive and seamless user experience. Through data-driven refinements and careful analysis, we unlocked the potential for maximum results. Prodigy Tech's conversion-centered home page drives action, instills trust, and delivers measurable success.`,
+        image: PHome,
+        position: "top",
+        withDivision: true,
+        inline: true,
+      },
+      {
+        type: "image",
+        title: "Software Dev",
+        content: `
+        Our software development service page captivates and informs, showcasing Prodigy Tech's Process. With concise content, captivating visuals, and intuitive navigation, we highlight their software development services. Prodigy Tech's page delivers an immersive experience that convinces and converts.`,
+        image: PDev,
+        position: "top",
+        withDivision: true,
+        inline: true,
+        secondTitle: `Flip Cards`,
+        secondContent: `
+        Flip cards were used on the MasterWeb site to create an interactive way for users to engage with the content and improve overall engagement with the site.`,
+      },
+      {
+        type: "image",
+        title: "UI/UX",
+        content: `
+        Our UX/UI service page is a testament to our passion for crafting remarkable digital experiences. Through captivating visuals and intuitive navigation, we showcase the transformative power of user-centric design.  With compelling case studies and client testimonials, we inspire businesses to create unforgettable interfaces. Prodigy Tech's page sparks imagination and empowers businesses to elevate their digital presence.`,
+        image: PUI,
+        inline: true,
+        position: "top",
+        withDivision: true,
+        secondTitle: `Efficient Design`,
+        secondContent: `
+        I wanted to make sure we used depth, motion, and animation, to provide and efficient and intuitive way for users to navigate.`,
+      },
+      {
+        type: "image",
+        title: "About Us",
+        content: `
+        Our About Us page reveals the essence of Prodigy Tech through a captivating narrative. With concise yet engaging content, we share our passion for innovation and commitment to excellence. Dynamic visuals and team photos add authenticity, while industry recognition builds credibility. Aligned values and a customer-centric approach create a strong emotional connection.`,
+        image: PABOUT,
+        inline: true,
+        position: "top",
+        withDivision: true,
+        secondTitle: `Efficient Design`,
+        secondContent: `
+        I wanted to make sure we used depth, motion, and animation, to provide and efficient and intuitive way for users to navigate.`,
+      },
+      {
+        type: "image",
+        title: "",
+
+        content: ``,
+        image: PBNA,
+        position: "bottom",
       },
       {
         type: "success",
         title: "Success and Evolution",
         content: `
-        The redesigns for MasterWeb's website were successful in achieving their goals of increasing traffic, modernizing the site, and providing a more engaging user experience. The updated design showcased MasterWeb's services and expertise in a more clear and visually appealing way, resulting in a significant increase in traffic and engagement on the site.
-        
-        The redesigned WordPress services page provided a more comprehensive overview of their services and made it easier for users to find the information they needed. The responsive design ensured that the site was accessible and user-friendly on any device, further improving the user experience.
-        
-        By using a lean UX approach and collaborating closely with the development team, we were able to deliver the redesigns within a tight timeline, while still meeting the client's goals and expectations. Overall, the successful redesigns resulted in a more modern, engaging, and effective online presence for MasterWeb Solutions.`,
+        Prodigy Tech's website design has been a remarkable tale of triumph and evolution. From inception to the present, we've witnessed their online presence flourish.
+        Crafting a visually stunning website, we ensured seamless experiences across devices, maximizing engagement and conversions. Embracing feedback, we refined the user interface, adapting to changing needs.
+        The website's success lies in effectively showcasing Prodigy Tech's expertise, Custom Pricing, and Services. It reflects their growth and our commitment to exceptional design and software dev solutions.`,
       },
     ],
   },
   {
-    slug: "nlc",
-    color: "#095055",
-    name: "NLC",
+    cover: Pcover,
+    slug: "prodigy",
+    color: "#1387F2",
+    name: "Prodigy Tech",
     description: `
-        I redesigned the Masterweb website to increase traffic, modernize the user experience, and create a stronger brand identity. I worked closely with the Masterweb team to understand their goals and conducted user research to improve the overall user experience.
-        
-        I focused on creating a personalized experience for users, optimized the navigation, and implemented a contemporary visual design that would appeal to users while also incorporating elements of the brand's existing style. Overall, the redesign was a success and has helped to establish a stronger brand identity for Masterweb.`,
+    I had the pleasure of designing the new responsive website for Prodigy Tech, a software development services company. Working closely with the CEO, CTO, and development team, I created an immersive digital experience that showcased Prodigy Tech's expertise.By crafting an intuitive user interface (UI) and optimizing it for various devices, I ensured a seamless and engaging journey for visitors. It was a collaborative effort, resulting in a visually stunning website that reflects Prodigy Tech's brand and values.`,
     roles: [
       "UI/UX Design",
       "Product Management",
@@ -504,26 +589,27 @@ export const projects = [
       "Design Systems",
       "Design QA",
     ],
-    team: ["Frontend Developer", "CTO", "CEO"],
+    team: ["Developer Team", "CTO", "CEO"],
     completed: "2023",
     sections: [
       {
         type: "context",
-        context: `MasterWeb Solutions is a technology services company that specializes in providing expert development services for businesses. They offer a range of services, including Design, WordPress, Security, and CMS/LSS, and believe that businesses need an experienced partner to take advantage of all that technology has to offer. Their team of talented and experienced engineers are highly trained in the latest technologies and industry methods, and they operate with transparency and trust as their core values. They build lasting partnerships with their clients and help them take the next step in their digital journey.`,
-        image: "",
+        context: `
+        Prodigy Tech is a dynamic company specializing in providing cutting-edge software development services. With a team of talented professionals, they deliver innovative solutions tailored to meet the unique needs of their clients. Prodigy Tech combines technical expertise with a passion for creating exceptional digital experiences. Their commitment to excellence and customer satisfaction has made them a trusted partner for businesses seeking reliable software solutions`,
+        image: Pcontext,
       },
       {
         type: "problem",
-        title: "The Problem",
+        title: "The Goal",
         description: `
-                The problem with the MasterWeb Solutions website was that it had an outdated look and feel, and the user experience was not optimized for modern browsing habits. This led to a high bounce rate, meaning users were leaving the site shortly after arriving. Additionally, the website's navigation was cluttered and not intuitive, making it difficult for users to find the information they needed. As a result, MasterWeb Solutions was not effectively communicating their expertise and value to potential clients, and the website was not driving the traffic and engagement it needed to succeed in today's digital landscape.`,
+        The goal of the project was to design a responsive website for Prodigy Tech that showcased their software development services and expertise. By creating an intuitive user interface (UI) and optimizing it for various devices, our aim was to provide visitors with a seamless and engaging digital experience. We wanted to highlight Prodigy Tech's brand identity, instill trust and credibility, and ensure the website reflected their commitment to excellence. Through close collaboration with the client and development team, our goal was to create a visually stunning website that effectively communicated Prodigy Tech's capabilities and established them as a leader in the industry.`,
       },
       {
         type: "definition",
-        title: "Defining the Process",
-        description: `To redesign the MasterWeb Solutions website, I worked closely with the CTO, CEO, and development team to define a streamlined process for the project. We broke the project down into four key phases, Within each phase, we had important steps to ensure we stayed on track and met key milestones and deliverable dates.
+        title: "The Process",
+        description: `We embarked on a collaborative journey, defining Prodigy Tech's brand and establishing a cohesive design system. Through concepting, we iterated on low-fi wireframes using Figma, incorporating feedback to ensure a user-centric approach.
 
-        Given the tight timeline to MVP, I used an agile, sprint-based process to iterate on and validate potential solutions early and often. The Concepting phase involved a series of week-long sprints to work through different features and ideas. This approach allowed us to quickly refine our designs and make necessary adjustments, ensuring we delivered a high-quality product that met the client's expectations.`,
+        The outcome? Captivating high-fidelity mockups and interactive prototypes, refined through continuous feedback and iterations. Our process resulted in a visually stunning website that showcases Prodigy Tech's expertise and delivers an intuitive digital experience.`,
         steps: [
           {
             title: "Discovery",
@@ -565,24 +651,110 @@ export const projects = [
       },
       {
         type: "image",
-        title: "Discovery and Analysis",
+        title: "Defining",
         content: `
-        During the discovery phase, I met with the MasterWeb team to understand their goals and objectives. We conducted workflow evaluations and used whiteboarding sessions to identify key areas for improvement. We also gathered data by analyzing website analytics and conducting user research.
-        
-        In the analysis phase, I synthesized the data we collected to gain a better understanding of the website's current state. We defined clear goals for the project and prioritized the scope of work. Finally, we mapped out the business flow to ensure the website would meet the needs of both the client and their users.`,
-        image: "",
+        We kicked off the design process by thoroughly understanding Prodigy Tech's brand identity and establishing a clear design system to follow. This involved in-depth discussions with the client to gather insights and align our vision with their goals and values.`,
+        image: Pdefining,
         position: "bottom",
         withDivision: false,
+      },
+      {
+        type: "image",
+        title: "Concepting",
+        content: `
+        Armed with a solid foundation, we dived into the concepting phase. Using Figma, we crafted low-fidelity wireframes that laid out the website's structure and functionality. Iterating on these wireframes, we sought feedback from stakeholders and incorporated their valuable input to ensure a user-centric approach.`,
+        image: Pconcept,
+        position: "bottom",
+        withDivision: true,
+      },
+      {
+        type: "image",
+        title: "Feedback",
+        content: `
+        With Figma's collaborative features, we seamlessly handled feedback throughout Prodigy Tech's website design. Clients provided real-time comments and annotations directly on the designs, enabling efficient communication and iterative improvements.
+        
+        This collaborative approach ensured a website that met the clients' vision and fostered a sense of ownership throughout the process.`,
+        image: PFB,
+        position: "top",
+        inline: true,
+        withDivision: false,
+      },
+      {
+        type: "image",
+        title: "Design Solution",
+        content: `
+        Building upon the refined wireframes, we transitioned into creating high-fidelity mockups and interactive prototypes. These visual representations brought the design to life, allowing us to visualize the final product.
+        
+        Through continuous feedback and iterations, we fine-tuned the details, ensuring the website embodied Prodigy Tech's brand while delivering an intuitive and visually captivating user experience.`,
+        image: PDS,
+        position: "top",
+        withDivision: true,
+      },
+
+      {
+        type: "image",
+        title: "Home Page",
+        content: `
+        Our goal was clear: design a home page that converts. By strategically placing call-to-action buttons, captivating visuals, and optimizing loading speed, we crafted a persuasive and seamless user experience. Through data-driven refinements and careful analysis, we unlocked the potential for maximum results. Prodigy Tech's conversion-centered home page drives action, instills trust, and delivers measurable success.`,
+        image: PHome,
+        position: "top",
+        withDivision: true,
+        inline: true,
+      },
+      {
+        type: "image",
+        title: "Software Dev",
+        content: `
+        Our software development service page captivates and informs, showcasing Prodigy Tech's Process. With concise content, captivating visuals, and intuitive navigation, we highlight their software development services. Prodigy Tech's page delivers an immersive experience that convinces and converts.`,
+        image: PDev,
+        position: "top",
+        withDivision: true,
+        inline: true,
+        secondTitle: `Flip Cards`,
+        secondContent: `
+        Flip cards were used on the MasterWeb site to create an interactive way for users to engage with the content and improve overall engagement with the site.`,
+      },
+      {
+        type: "image",
+        title: "UI/UX",
+        content: `
+        Our UX/UI service page is a testament to our passion for crafting remarkable digital experiences. Through captivating visuals and intuitive navigation, we showcase the transformative power of user-centric design.  With compelling case studies and client testimonials, we inspire businesses to create unforgettable interfaces. Prodigy Tech's page sparks imagination and empowers businesses to elevate their digital presence.`,
+        image: PUI,
+        inline: true,
+        position: "top",
+        withDivision: true,
+        secondTitle: `Efficient Design`,
+        secondContent: `
+        I wanted to make sure we used depth, motion, and animation, to provide and efficient and intuitive way for users to navigate.`,
+      },
+      {
+        type: "image",
+        title: "About Us",
+        content: `
+        Our About Us page reveals the essence of Prodigy Tech through a captivating narrative. With concise yet engaging content, we share our passion for innovation and commitment to excellence. Dynamic visuals and team photos add authenticity, while industry recognition builds credibility. Aligned values and a customer-centric approach create a strong emotional connection.`,
+        image: PABOUT,
+        inline: true,
+        position: "top",
+        withDivision: true,
+        secondTitle: `Efficient Design`,
+        secondContent: `
+        I wanted to make sure we used depth, motion, and animation, to provide and efficient and intuitive way for users to navigate.`,
+      },
+      {
+        type: "image",
+        title: "",
+
+        content: ``,
+        image: PBNA,
+        position: "bottom",
       },
       {
         type: "success",
         title: "Success and Evolution",
         content: `
-        The redesigns for MasterWeb's website were successful in achieving their goals of increasing traffic, modernizing the site, and providing a more engaging user experience. The updated design showcased MasterWeb's services and expertise in a more clear and visually appealing way, resulting in a significant increase in traffic and engagement on the site.
-        
-        The redesigned WordPress services page provided a more comprehensive overview of their services and made it easier for users to find the information they needed. The responsive design ensured that the site was accessible and user-friendly on any device, further improving the user experience.
-        
-        By using a lean UX approach and collaborating closely with the development team, we were able to deliver the redesigns within a tight timeline, while still meeting the client's goals and expectations. Overall, the successful redesigns resulted in a more modern, engaging, and effective online presence for MasterWeb Solutions.`,
+        Prodigy Tech's website design has been a remarkable tale of triumph and evolution. From inception to the present, we've witnessed their online presence flourish.
+        Crafting a visually stunning website, we ensured seamless experiences across devices, maximizing engagement and conversions. Embracing feedback, we refined the user interface, adapting to changing needs.
+        The website's success lies in effectively showcasing Prodigy Tech's expertise, Custom Pricing, and Services. It reflects their growth and our commitment to exceptional design and software dev solutions.`,
       },
     ],
   },
