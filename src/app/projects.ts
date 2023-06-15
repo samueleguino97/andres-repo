@@ -21,6 +21,17 @@ import PUI from "@/assets/prodigy/uiux.png";
 import PABOUT from "@/assets/prodigy/aboutus.png";
 import PBNA from "@/assets/prodigy/BNA.png";
 
+import Ncover from "@/assets/nlc/cover.png";
+import Ncontext from "@/assets/nlc/context.png";
+import NTalk from "@/assets/nlc/talk.png";
+import NAwards from "@/assets/nlc/awards.png";
+import awardsBG from "@/assets/nlc/awardsbg.png";
+import NDesign from "@/assets/nlc/design.png";
+import NSocial from "@/assets/nlc/social.png";
+import NRevise from "@/assets/nlc/revise.png";
+import NPrint from "@/assets/nlc/print.png";
+import NUI from "@/assets/nlc/ui.png";
+
 export const projects = [
   {
     cover: cover,
@@ -390,371 +401,129 @@ export const projects = [
       },
     ],
   },
+
   {
-    cover: Pcover,
-    slug: "atnight",
-    color: "#1387F2",
-    name: "At Night",
-    description: `
-    I had the pleasure of designing the new responsive website for Prodigy Tech, a software development services company. Working closely with the CEO, CTO, and development team, I created an immersive digital experience that showcased Prodigy Tech's expertise.By crafting an intuitive user interface (UI) and optimizing it for various devices, I ensured a seamless and engaging journey for visitors. It was a collaborative effort, resulting in a visually stunning website that reflects Prodigy Tech's brand and values.`,
-    roles: [
-      "UI/UX Design",
-      "Product Management",
-      "User Research",
-      "Wireframing",
-      "Design Systems",
-      "Design QA",
-    ],
-    team: ["Developer Team", "CTO", "CEO"],
-    completed: "2023",
-    sections: [
-      {
-        type: "context",
-        context: `
-        Prodigy Tech is a dynamic company specializing in providing cutting-edge software development services. With a team of talented professionals, they deliver innovative solutions tailored to meet the unique needs of their clients. Prodigy Tech combines technical expertise with a passion for creating exceptional digital experiences. Their commitment to excellence and customer satisfaction has made them a trusted partner for businesses seeking reliable software solutions`,
-        image: Pcontext,
-      },
-      {
-        type: "problem",
-        title: "The Goal",
-        description: `
-        The goal of the project was to design a responsive website for Prodigy Tech that showcased their software development services and expertise. By creating an intuitive user interface (UI) and optimizing it for various devices, our aim was to provide visitors with a seamless and engaging digital experience. We wanted to highlight Prodigy Tech's brand identity, instill trust and credibility, and ensure the website reflected their commitment to excellence. Through close collaboration with the client and development team, our goal was to create a visually stunning website that effectively communicated Prodigy Tech's capabilities and established them as a leader in the industry.`,
-      },
-      {
-        type: "definition",
-        title: "The Process",
-        description: `We embarked on a collaborative journey, defining Prodigy Tech's brand and establishing a cohesive design system. Through concepting, we iterated on low-fi wireframes using Figma, incorporating feedback to ensure a user-centric approach.
-
-        The outcome? Captivating high-fidelity mockups and interactive prototypes, refined through continuous feedback and iterations. Our process resulted in a visually stunning website that showcases Prodigy Tech's expertise and delivers an intuitive digital experience.`,
-        steps: [
-          {
-            title: "Discovery",
-            substeps: [
-              "Client meetings",
-              "Workflow Evaluations",
-              "Whiteboarding",
-              "Data Gathering",
-            ],
-          },
-          {
-            title: "Analysis",
-            substeps: [
-              "Data Synthesis",
-              "Defining Goals",
-              "Prioritization Scope",
-              "Business Flow",
-            ],
-          },
-          {
-            title: "Concepting",
-            substeps: [
-              "Wireframing",
-              "Atomic Design Dev",
-              "Client Feedback",
-              "High Fidelity Iteration",
-            ],
-          },
-          {
-            title: "Outcome",
-            substeps: [
-              "Final High Fidelity Designs",
-              "Dev & Usability Feedback",
-              "Style Guidelines",
-              "Post Recommendations",
-            ],
-          },
-        ],
-      },
-      {
-        type: "image",
-        title: "Defining",
-        content: `
-        We kicked off the design process by thoroughly understanding Prodigy Tech's brand identity and establishing a clear design system to follow. This involved in-depth discussions with the client to gather insights and align our vision with their goals and values.`,
-        image: Pdefining,
-        position: "bottom",
-        withDivision: false,
-      },
-      {
-        type: "image",
-        title: "Concepting",
-        content: `
-        Armed with a solid foundation, we dived into the concepting phase. Using Figma, we crafted low-fidelity wireframes that laid out the website's structure and functionality. Iterating on these wireframes, we sought feedback from stakeholders and incorporated their valuable input to ensure a user-centric approach.`,
-        image: Pconcept,
-        position: "bottom",
-        withDivision: true,
-      },
-      {
-        type: "image",
-        title: "Feedback",
-        content: `
-        With Figma's collaborative features, we seamlessly handled feedback throughout Prodigy Tech's website design. Clients provided real-time comments and annotations directly on the designs, enabling efficient communication and iterative improvements.
-        
-        This collaborative approach ensured a website that met the clients' vision and fostered a sense of ownership throughout the process.`,
-        image: PFB,
-        position: "top",
-        inline: true,
-        withDivision: false,
-      },
-      {
-        type: "image",
-        title: "Design Solution",
-        content: `
-        Building upon the refined wireframes, we transitioned into creating high-fidelity mockups and interactive prototypes. These visual representations brought the design to life, allowing us to visualize the final product.
-        
-        Through continuous feedback and iterations, we fine-tuned the details, ensuring the website embodied Prodigy Tech's brand while delivering an intuitive and visually captivating user experience.`,
-        image: PDS,
-        position: "top",
-        withDivision: true,
-      },
-
-      {
-        type: "image",
-        title: "Home Page",
-        content: `
-        Our goal was clear: design a home page that converts. By strategically placing call-to-action buttons, captivating visuals, and optimizing loading speed, we crafted a persuasive and seamless user experience. Through data-driven refinements and careful analysis, we unlocked the potential for maximum results. Prodigy Tech's conversion-centered home page drives action, instills trust, and delivers measurable success.`,
-        image: PHome,
-        position: "top",
-        withDivision: true,
-        inline: true,
-      },
-      {
-        type: "image",
-        title: "Software Dev",
-        content: `
-        Our software development service page captivates and informs, showcasing Prodigy Tech's Process. With concise content, captivating visuals, and intuitive navigation, we highlight their software development services. Prodigy Tech's page delivers an immersive experience that convinces and converts.`,
-        image: PDev,
-        position: "top",
-        withDivision: true,
-        inline: true,
-        secondTitle: `Flip Cards`,
-        secondContent: `
-        Flip cards were used on the MasterWeb site to create an interactive way for users to engage with the content and improve overall engagement with the site.`,
-      },
-      {
-        type: "image",
-        title: "UI/UX",
-        content: `
-        Our UX/UI service page is a testament to our passion for crafting remarkable digital experiences. Through captivating visuals and intuitive navigation, we showcase the transformative power of user-centric design.  With compelling case studies and client testimonials, we inspire businesses to create unforgettable interfaces. Prodigy Tech's page sparks imagination and empowers businesses to elevate their digital presence.`,
-        image: PUI,
-        inline: true,
-        position: "top",
-        withDivision: true,
-        secondTitle: `Efficient Design`,
-        secondContent: `
-        I wanted to make sure we used depth, motion, and animation, to provide and efficient and intuitive way for users to navigate.`,
-      },
-      {
-        type: "image",
-        title: "About Us",
-        content: `
-        Our About Us page reveals the essence of Prodigy Tech through a captivating narrative. With concise yet engaging content, we share our passion for innovation and commitment to excellence. Dynamic visuals and team photos add authenticity, while industry recognition builds credibility. Aligned values and a customer-centric approach create a strong emotional connection.`,
-        image: PABOUT,
-        inline: true,
-        position: "top",
-        withDivision: true,
-        secondTitle: `Efficient Design`,
-        secondContent: `
-        I wanted to make sure we used depth, motion, and animation, to provide and efficient and intuitive way for users to navigate.`,
-      },
-      {
-        type: "image",
-        title: "",
-
-        content: ``,
-        image: PBNA,
-        position: "bottom",
-      },
-      {
-        type: "success",
-        title: "Success and Evolution",
-        content: `
-        Prodigy Tech's website design has been a remarkable tale of triumph and evolution. From inception to the present, we've witnessed their online presence flourish.
-        Crafting a visually stunning website, we ensured seamless experiences across devices, maximizing engagement and conversions. Embracing feedback, we refined the user interface, adapting to changing needs.
-        The website's success lies in effectively showcasing Prodigy Tech's expertise, Custom Pricing, and Services. It reflects their growth and our commitment to exceptional design and software dev solutions.`,
-      },
-    ],
-  },
-  {
-    cover: Pcover,
+    cover: Ncover,
     slug: "nlc",
     color: "#1387F2",
-    name: "NLC",
+    name: "NLC Designer",
     description: `
-    I had the pleasure of designing the new responsive website for Prodigy Tech, a software development services company. Working closely with the CEO, CTO, and development team, I created an immersive digital experience that showcased Prodigy Tech's expertise.By crafting an intuitive user interface (UI) and optimizing it for various devices, I ensured a seamless and engaging journey for visitors. It was a collaborative effort, resulting in a visually stunning website that reflects Prodigy Tech's brand and values.`,
-    roles: [
-      "UI/UX Design",
-      "Product Management",
-      "User Research",
-      "Wireframing",
-      "Design Systems",
-      "Design QA",
-    ],
-    team: ["Developer Team", "CTO", "CEO"],
-    completed: "2023",
+    At NLC, I had the privilege of serving as a Graphic Designer and UI Specialist. My role encompassed a wide range of responsibilities, from conceptualizing and designing visually captivating graphics to crafting intuitive user interfaces. I collaborated closely with the creative team and clients to understand their requirements, translate their visions into impactful designs, and deliver exceptional results.
+    
+    Whether it was creating engaging marketing materials, designing eye-catching branding assets, or crafting seamless user experiences, I embraced the challenge of bringing ideas to life through my expertise in graphic design and UI. With a meticulous eye for detail and a passion for aesthetics, I consistently aimed to exceed expectations and contribute to NLC's creative excellence.`,
+    roles: ["UI/UX Design", "Product Management"],
+    team: ["Frontend Developer", "CTO"],
+    completed: "On-Going",
     sections: [
       {
         type: "context",
         context: `
-        Prodigy Tech is a dynamic company specializing in providing cutting-edge software development services. With a team of talented professionals, they deliver innovative solutions tailored to meet the unique needs of their clients. Prodigy Tech combines technical expertise with a passion for creating exceptional digital experiences. Their commitment to excellence and customer satisfaction has made them a trusted partner for businesses seeking reliable software solutions`,
-        image: Pcontext,
-      },
-      {
-        type: "problem",
-        title: "The Goal",
-        description: `
-        The goal of the project was to design a responsive website for Prodigy Tech that showcased their software development services and expertise. By creating an intuitive user interface (UI) and optimizing it for various devices, our aim was to provide visitors with a seamless and engaging digital experience. We wanted to highlight Prodigy Tech's brand identity, instill trust and credibility, and ensure the website reflected their commitment to excellence. Through close collaboration with the client and development team, our goal was to create a visually stunning website that effectively communicated Prodigy Tech's capabilities and established them as a leader in the industry.`,
+        As a UI and Graphic Designer at NLC, I've had the opportunity to work with a wide range of clients from all over the world. My experience in both areas has given me a unique perspective on how to create visually stunning designs that are both user-friendly and effective. Working closely with a team has been critical in thriving in a fast-paced environment, as it allows us to bounce ideas off each other and ensure that every design we create is of the highest quality. Whether it's UI/UX design or Social Media Ads, I'm committed to delivering clear, impactful solutions that exceed our clients' expectations.`,
+        image: Ncontext,
       },
       {
         type: "definition",
-        title: "The Process",
-        description: `We embarked on a collaborative journey, defining Prodigy Tech's brand and establishing a cohesive design system. Through concepting, we iterated on low-fi wireframes using Figma, incorporating feedback to ensure a user-centric approach.
-
-        The outcome? Captivating high-fidelity mockups and interactive prototypes, refined through continuous feedback and iterations. Our process resulted in a visually stunning website that showcases Prodigy Tech's expertise and delivers an intuitive digital experience.`,
+        title: "Workflow",
+        bg: awardsBG,
+        description: `
+        At NLC, our well-defined workflow enabled me to efficiently manage 2-3 design requests daily. Clear communication and collaboration ensured a thorough understanding of project requirements.
+        
+        I worked diligently, conducting quality assurance checks and seeking feedback. Revisions were addressed promptly, resulting in impeccable final designs. This streamlined process maximized productivity, precision, and client satisfaction.`,
         steps: [
           {
-            title: "Discovery",
-            substeps: [
-              "Client meetings",
-              "Workflow Evaluations",
-              "Whiteboarding",
-              "Data Gathering",
-            ],
+            title: "Talk",
+            substeps: ["Receive Task", "Design Brief", "Collaborate"],
           },
           {
-            title: "Analysis",
-            substeps: [
-              "Data Synthesis",
-              "Defining Goals",
-              "Prioritization Scope",
-              "Business Flow",
-            ],
+            title: "Design",
+            substeps: ["Work on Task", "QA Revise", "Upload Files"],
           },
           {
-            title: "Concepting",
-            substeps: [
-              "Wireframing",
-              "Atomic Design Dev",
-              "Client Feedback",
-              "High Fidelity Iteration",
-            ],
-          },
-          {
-            title: "Outcome",
-            substeps: [
-              "Final High Fidelity Designs",
-              "Dev & Usability Feedback",
-              "Style Guidelines",
-              "Post Recommendations",
-            ],
+            title: "Revise",
+            substeps: ["Work on Revisions", "QA Revise", "Final Designs"],
           },
         ],
       },
       {
         type: "image",
-        title: "Defining",
+        title: "The Talk",
         content: `
-        We kicked off the design process by thoroughly understanding Prodigy Tech's brand identity and establishing a clear design system to follow. This involved in-depth discussions with the client to gather insights and align our vision with their goals and values.`,
-        image: Pdefining,
+
+        The Talk phase at NLC was a vital starting point for successful project execution. During this phase, I engaged in open and transparent communication with clients and the creative team. By actively listening and asking pertinent questions, I gained a comprehensive understanding of the task at hand and the client's vision.
+        
+        Collaborating closely, we exchanged ideas, shared insights, and aligned expectations. This collaborative approach fostered a strong foundation for the design process, ensuring that every project started with a clear direction and a shared understanding of goals.`,
+        image: NTalk,
         position: "bottom",
         withDivision: false,
       },
       {
         type: "image",
-        title: "Concepting",
+        title: "Design",
         content: `
-        Armed with a solid foundation, we dived into the concepting phase. Using Figma, we crafted low-fidelity wireframes that laid out the website's structure and functionality. Iterating on these wireframes, we sought feedback from stakeholders and incorporated their valuable input to ensure a user-centric approach.`,
-        image: Pconcept,
-        position: "bottom",
-        withDivision: true,
-      },
-      {
-        type: "image",
-        title: "Feedback",
-        content: `
-        With Figma's collaborative features, we seamlessly handled feedback throughout Prodigy Tech's website design. Clients provided real-time comments and annotations directly on the designs, enabling efficient communication and iterative improvements.
+        The Design phase at NLC was the heart of bringing ideas to life. Armed with a deep understanding of project requirements, I harnessed my creative skills and expertise to craft captivating designs. With meticulous attention to detail, I transformed concepts into visually stunning assets that aligned with the client's vision and brand identity.
         
-        This collaborative approach ensured a website that met the clients' vision and fostered a sense of ownership throughout the process.`,
-        image: PFB,
-        position: "top",
-        inline: true,
+        Quality assurance and revision processes ensured that the designs met the highest standards of excellence. This phase showcased my passion for design and allowed me to showcase my creative ingenuity in delivering impactful solutions that surpassed client expectations.`,
+        image: NDesign,
+        position: "bottom",
         withDivision: false,
       },
       {
         type: "image",
-        title: "Design Solution",
+        title: "Revise",
         content: `
-        Building upon the refined wireframes, we transitioned into creating high-fidelity mockups and interactive prototypes. These visual representations brought the design to life, allowing us to visualize the final product.
+        The Revise phase at NLC marked the fine-tuning stage of the design process. Building upon client feedback and collaboration, I diligently worked on revisions, addressing requested changes with precision and creativity. Quality assurance checks were conducted to ensure that the revised designs met the highest standards of quality and effectively conveyed the desired message.
         
-        Through continuous feedback and iterations, we fine-tuned the details, ensuring the website embodied Prodigy Tech's brand while delivering an intuitive and visually captivating user experience.`,
-        image: PDS,
-        position: "top",
-        withDivision: true,
-      },
-
-      {
-        type: "image",
-        title: "Home Page",
-        content: `
-        Our goal was clear: design a home page that converts. By strategically placing call-to-action buttons, captivating visuals, and optimizing loading speed, we crafted a persuasive and seamless user experience. Through data-driven refinements and careful analysis, we unlocked the potential for maximum results. Prodigy Tech's conversion-centered home page drives action, instills trust, and delivers measurable success.`,
-        image: PHome,
-        position: "top",
-        withDivision: true,
-        inline: true,
-      },
-      {
-        type: "image",
-        title: "Software Dev",
-        content: `
-        Our software development service page captivates and informs, showcasing Prodigy Tech's Process. With concise content, captivating visuals, and intuitive navigation, we highlight their software development services. Prodigy Tech's page delivers an immersive experience that convinces and converts.`,
-        image: PDev,
-        position: "top",
-        withDivision: true,
-        inline: true,
-        secondTitle: `Flip Cards`,
-        secondContent: `
-        Flip cards were used on the MasterWeb site to create an interactive way for users to engage with the content and improve overall engagement with the site.`,
-      },
-      {
-        type: "image",
-        title: "UI/UX",
-        content: `
-        Our UX/UI service page is a testament to our passion for crafting remarkable digital experiences. Through captivating visuals and intuitive navigation, we showcase the transformative power of user-centric design.  With compelling case studies and client testimonials, we inspire businesses to create unforgettable interfaces. Prodigy Tech's page sparks imagination and empowers businesses to elevate their digital presence.`,
-        image: PUI,
-        inline: true,
-        position: "top",
-        withDivision: true,
-        secondTitle: `Efficient Design`,
-        secondContent: `
-        I wanted to make sure we used depth, motion, and animation, to provide and efficient and intuitive way for users to navigate.`,
-      },
-      {
-        type: "image",
-        title: "About Us",
-        content: `
-        Our About Us page reveals the essence of Prodigy Tech through a captivating narrative. With concise yet engaging content, we share our passion for innovation and commitment to excellence. Dynamic visuals and team photos add authenticity, while industry recognition builds credibility. Aligned values and a customer-centric approach create a strong emotional connection.`,
-        image: PABOUT,
-        inline: true,
-        position: "top",
-        withDivision: true,
-        secondTitle: `Efficient Design`,
-        secondContent: `
-        I wanted to make sure we used depth, motion, and animation, to provide and efficient and intuitive way for users to navigate.`,
-      },
-      {
-        type: "image",
-        title: "",
-
-        content: ``,
-        image: PBNA,
+        This phase emphasized my commitment to delivering exceptional results by refining designs to perfection. Through iterative revisions and a keen eye for detail, I ensured that the final designs were flawless, exceeding client expectations and creating impactful visual experiences.`,
+        image: NRevise,
         position: "bottom",
+        // inline: true,
+        withDivision: false,
+      },
+
+      {
+        type: "image",
+        title: "Social Media / Ads",
+        content: `
+
+        At NLC, I excelled in crafting compelling social media and advertising designs. From eye-catching graphics to engaging display ads, I captured the essence of brands and communicated their messages effectively. With a keen eye for detail and a deep understanding of marketing strategies, I consistently delivered visually striking designs that drove engagement and brand awareness. Each design had a strong visual presence, aligning with clients' objectives and leaving a lasting impact.`,
+        image: NSocial,
+        position: "bottom",
+        withDivision: true,
+        inline: true,
       },
       {
-        type: "success",
-        title: "Success and Evolution",
+        type: "image",
+        title: "UX/UI",
         content: `
-        Prodigy Tech's website design has been a remarkable tale of triumph and evolution. From inception to the present, we've witnessed their online presence flourish.
-        Crafting a visually stunning website, we ensured seamless experiences across devices, maximizing engagement and conversions. Embracing feedback, we refined the user interface, adapting to changing needs.
-        The website's success lies in effectively showcasing Prodigy Tech's expertise, Custom Pricing, and Services. It reflects their growth and our commitment to exceptional design and software dev solutions.`,
+        At NLC, I excelled in crafting compelling social media and advertising designs. From eye-catching graphics to engaging display ads, I captured the essence of brands and communicated their messages effectively. With a keen eye for detail and a deep understanding of marketing strategies, I consistently delivered visually striking designs that drove engagement and brand awareness. Each design had a strong visual presence, aligning with clients' objectives and leaving a lasting impact.`,
+        image: NUI,
+        position: "bottom",
+        withDivision: true,
+        inline: true,
+      },
+      {
+        type: "image",
+        title: "Print/Label",
+        content: `
+        At NLC, I specialized in creating print and label designs that left a lasting impression. From brochures and flyers to product labels, I crafted visually striking designs that captivated audiences. Through meticulous attention to detail and thoughtful use of typography and color, I ensured each design effectively communicated the brand's message. With a passion for print design, I consistently delivered memorable designs that impressed clients and stood out in the market.`,
+        image: NPrint,
+        inline: true,
+        position: "bottom",
+        withDivision: true,
+      },
+
+      {
+        type: "image",
+        title: "Awards",
+        content: `
+        Within a short two-month span at NLC, I earned the distinction of being the Highest Performance Designer not just once, but twice in a row. Through exceptional dedication and a commitment to excellence, I consistently delivered outstanding results that surpassed expectations.
+        
+        By effectively managing my time, collaborating with the team, and embracing innovative approaches, I continuously pushed the boundaries of my capabilities. This achievement reflects my unwavering drive and ability to consistently perform at the highest level, making a remarkable impact in a short amount of time.`,
+        image: NAwards,
+        inline: true,
+        position: "bottom",
+        bg: awardsBG,
+        withDivision: true,
       },
     ],
   },

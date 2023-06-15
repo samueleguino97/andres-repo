@@ -62,7 +62,7 @@ function Project({ params }: { params: { slug: string } }) {
             return (
               <React.Fragment key={s.slug}>
                 <Image className="mt-16 w-full" src={s.image!} alt="" />
-                <div className="px-6 container mx-auto">
+                <div className="px-6 container mx-auto ">
                   <div className="mt-16 pb-16 border-b-[0.5px] border-[#343434]">
                     <div>
                       <Title>The Context</Title>
@@ -100,7 +100,12 @@ function Project({ params }: { params: { slug: string } }) {
               <div
                 key={s.slug}
                 className={`py-16   px-6 text-white `}
-                style={{ backgroundColor: project.color }}
+                style={{
+                  backgroundColor: project.color,
+                  background: s.bg ? `url(${s.bg.src})` : undefined,
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                }}
               >
                 <div className="container mx-auto">
                   <Title>{s.title}</Title>
@@ -158,6 +163,12 @@ function Project({ params }: { params: { slug: string } }) {
             return (
               <React.Fragment key={s.slug}>
                 <div
+                  style={{
+                    background: s.bg ? `url(${s.bg.src})` : undefined,
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                    color: s.bg ? "white" : "unset",
+                  }}
                   className={
                     s.inline
                       ? " md:pb-16  md:mt-16 md:container mx-auto md:grid md:grid-cols-2 items-center" +
