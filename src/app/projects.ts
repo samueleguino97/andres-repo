@@ -392,9 +392,9 @@ export const projects = [
   },
   {
     cover: Pcover,
-    slug: "prodigy",
+    slug: "atnight",
     color: "#1387F2",
-    name: "Prodigy Tech",
+    name: "At Night",
     description: `
     I had the pleasure of designing the new responsive website for Prodigy Tech, a software development services company. Working closely with the CEO, CTO, and development team, I created an immersive digital experience that showcased Prodigy Tech's expertise.By crafting an intuitive user interface (UI) and optimizing it for various devices, I ensured a seamless and engaging journey for visitors. It was a collaborative effort, resulting in a visually stunning website that reflects Prodigy Tech's brand and values.`,
     roles: [
@@ -576,9 +576,9 @@ export const projects = [
   },
   {
     cover: Pcover,
-    slug: "prodigy",
+    slug: "nlc",
     color: "#1387F2",
-    name: "Prodigy Tech",
+    name: "NLC",
     description: `
     I had the pleasure of designing the new responsive website for Prodigy Tech, a software development services company. Working closely with the CEO, CTO, and development team, I created an immersive digital experience that showcased Prodigy Tech's expertise.By crafting an intuitive user interface (UI) and optimizing it for various devices, I ensured a seamless and engaging journey for visitors. It was a collaborative effort, resulting in a visually stunning website that reflects Prodigy Tech's brand and values.`,
     roles: [

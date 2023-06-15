@@ -1,0 +1,22 @@
+
+        <svg
+          className="md:w-16 w-8"
+          viewBox="0 0 66 69"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            width="19.764"
+            height="68.297"
+            rx="9.882"
+            transform="matrix(0.971739 0.236057 -0.38985 0.920878 26.6255 0.705261)"
+            fill="#7400AA"
+          />
+          <rect
+            width="19.764"
+            height="68.297"
+            rx="9.882"
+            transform="matrix(-0.971739 0.236057 0.38985 0.920878 39.3745 0)"
+            fill="#8B00CD"
+          />
+        </svg>
