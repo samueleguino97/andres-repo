@@ -50,7 +50,7 @@ export default function Home() {
         />
 
         <HomeProject
-          slug="prodigytech"
+          slug="prodigy"
           color="#1387F2"
           image={SecondProject}
           title="Prodigy Tech Website"
